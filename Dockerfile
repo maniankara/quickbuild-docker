@@ -1,6 +1,5 @@
 FROM java:openjdk-7u65-jdk
-# maint details
-MAINTAINER Anoop Vijayan Maniankara <maniankara@gmail.com>
+# maintainers details
 # system installations
 RUN apt-get update && apt-get install -y wget 
 # product installations
